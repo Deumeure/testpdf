@@ -1,0 +1,403 @@
+Ttest2
+v7
+r0
+t332781946.450211
+cCheck dependencies
+cProcessInfoPlistFile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/Info.plist test2-Info.plist
+cCompileXIB /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+cCpResource build/Debug-iphonesimulator/test2.app/mobile.pdf mobile.pdf
+cProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch.gch test2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2 normal i386
+cGenerateDSYMFile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app.dSYM /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2
+cTouch /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.h
+c000000004D505DDC000000000000019F
+t1297112540
+s415
+i<Foundation/Foundation.h>
+
+N/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m
+c000000004E2594B8000000000000050E
+t1311085752
+s1294
+i"BlockingQueue.h"
+
+N/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.h
+c000000004E2556D90000000000000316
+t1311069913
+s790
+i<Foundation/Foundation.h>
+i"BlockingQueue.h"
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m
+c000000004E25947B000000000000072F
+t1311085691
+s1839
+i"PDFImageLoader.h"
+
+N/Users/Deumeure/Documents/test2/PDFLoader.h
+c000000004E2450D700000000000001F1
+t1311002839
+s497
+i<Foundation/Foundation.h>
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/PDFLoader.m
+c000000004E259F7600000000000003D2
+t1311088502
+s978
+i"PDFLoader.h"
+
+N/Users/Deumeure/Documents/test2/PDFPage.h
+c000000004E24475600000000000002A4
+t1311000406
+s676
+i<Foundation/Foundation.h>
+
+N/Users/Deumeure/Documents/test2/PDFPage.m
+c000000004E259FFC0000000000000F40
+t1311088636
+s3904
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/Shared/main.m
+c000000004E259A17000000000000016F
+t1311087127
+s367
+i<UIKit/UIKit.h>
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app
+t1311089146
+s272
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app.dSYM
+t1311089146
+s102
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/Info.plist
+t1311089145
+s897
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/MainWindow_iPad.nib
+t1311089145
+s982
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/MainWindow_iPhone.nib
+t1311089145
+s984
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/PkgInfo
+t1311089145
+s8
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/mobile.pdf
+t1311089145
+s2708379
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2
+t1311089146
+s34912
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPad.o
+t1311089146
+s53532
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1311089146
+s49280
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/BlockingQueue.o
+t1311089146
+s12504
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFImageLoader.o
+t1311089146
+s17260
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFLoader.o
+t1311089146
+s11860
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFPage.o
+t1311089146
+s17016
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/main.o
+t1311089146
+s6304
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/test2.LinkFileList
+c000000004E25A1F9000000000000033E
+t1311089145
+s830
+
+N/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.h
+c000000004E259F2100000000000001B9
+t1311088417
+s441
+i<UIKit/UIKit.h>
+i"PDFLoader.h"
+
+N/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m
+c000000004E25A1E5000000000000097B
+t1311089125
+s2427
+i"AppDelegate_iPad.h"
+
+N/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+c000000004E259A1700000000000036D9
+t1311087127
+s14041
+
+N/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.h
+c000000004E259A17000000000000014D
+t1311087127
+s333
+i<UIKit/UIKit.h>
+
+N/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m
+c000000004E259A1700000000000009D4
+t1311087127
+s2516
+i"AppDelegate_iPhone.h"
+
+N/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+c000000004E259A170000000000003908
+t1311087127
+s14600
+
+N/Users/Deumeure/Documents/test2/mobile.pdf
+c000000004E259A71000000000029539B
+t1311087217
+s2708379
+
+N/Users/Deumeure/Documents/test2/test2_Prefix.pch
+c000000004E259A1700000000000000B3
+t1311087127
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch.gch
+t1311089146
+s15453392
+
+Ntest2-Info.plist
+c000000004E259C7A0000000000000569
+t1311087738
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332781945#332781945#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.091418
+e332781946.203968
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: 'AppDelegate_iPad' may not respond to '-tick'
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: (Messages without a matching method signature
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: will be assumed to return 'id' and accept
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: '...' as arguments.)
+lSLF07#2@63"Compile /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332781946#332781946#0(566"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: 'AppDelegate_iPad' may not respond to '-tick'/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: (Messages without a matching method signature/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: will be assumed to return 'id' and accept/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:34: warning: '...' as arguments.)2(22@45"'AppDelegate_iPad' may not respond to '-tick'332781946#135#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332781925#34#0#34#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332781946#250#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332781925#34#0#34#0#0"0(0#0#55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m8603032768#1826"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPad.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.090696
+e332781946.202458
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m332781946#332781946#0(0"0(0#0#59"/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m8599796512#1832"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/AppDelegate_iPhone.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.202590
+e332781946.287920
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/BlockingQueue.o
+x/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m332781946#332781946#0(0"0(0#0#61"/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m8605633024#1829"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/BlockingQueue.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.199830
+e332781946.269652
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFImageLoader.o
+x/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m332781946#332781946#0(0"0(0#0#60"/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m8605520416#1829"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFImageLoader.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.169804
+e332781946.244185
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFLoader.o
+x/Users/Deumeure/Documents/test2/PDFLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Deumeure/Documents/test2/PDFLoader.m332781946#332781946#0(0"0(0#0#43"/Users/Deumeure/Documents/test2/PDFLoader.m8603944416#1807"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFLoader.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.092365
+e332781946.199702
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFPage.o
+x/Users/Deumeure/Documents/test2/PDFPage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Deumeure/Documents/test2/PDFPage.m332781946#332781946#0(0"0(0#0#41"/Users/Deumeure/Documents/test2/PDFPage.m8603340064#1803"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFPage.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/PDFPage.o0#
+
+CCompileC build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781946.089830
+e332781946.169676
+r1
+xCompileC
+xbuild/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/main.o
+x/Users/Deumeure/Documents/test2/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Deumeure/Documents/test2/Shared/main.m332781946#332781946#0(0"0(0#0#45"/Users/Deumeure/Documents/test2/Shared/main.m8603698048#1804"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/Shared/main.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+s332781945.131456
+e332781945.482479
+r1
+xCompileXIB
+x/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib332781945#332781945#0(0"0(0#0#56"/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib8603135616#562"    cd /Users/Deumeure/Documents/test2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/MainWindow_iPad.nib /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+s332781945.130677
+e332781945.479871
+r1
+xCompileXIB
+x/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib332781945#332781945#0(0"0(0#0#60"/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib8603723392#568"    cd /Users/Deumeure/Documents/test2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/MainWindow_iPhone.nib /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/test2.app/mobile.pdf mobile.pdf
+s332781945.132765
+e332781945.144935
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/test2.app/mobile.pdf
+xmobile.pdf
+lSLF07#2@15"Copy mobile.pdf332781945#332781945#0(0"0(0#0#42"/Users/Deumeure/Documents/test2/mobile.pdf8601681088#445"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Deumeure/Documents/test2/mobile.pdf /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app0#
+
+CGenerateDSYMFile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app.dSYM /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2
+s332781946.431537
+e332781946.447684
+r1
+xGenerateDSYMFile
+x/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app.dSYM
+x/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/test2.app.dSYM build/Debug-iphonesimulator/test2.app/test2332781946#332781946#0(0"0(0#0#75"/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test28604941088#356"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2 -o /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app.dSYM0#
+
+CLd /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2 normal i386
+s332781946.288004
+e332781946.431429
+r1
+xLd
+x/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2
+xnormal
+xi386
+lSLF07#2@80"Link /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test2332781946#332781946#0(0"0(0#0#0"8605178080#855"    cd /Users/Deumeure/Documents/test2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -filelist /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/Objects-normal/i386/test2.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/test20#
+
+CProcessInfoPlistFile /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/Info.plist test2-Info.plist
+s332781945.124919
+e332781945.130567
+r1
+xProcessInfoPlistFile
+x/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/Info.plist
+xtest2-Info.plist
+lSLF07#2@24"Process test2-Info.plist332781945#332781945#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/test2-Info.plist32370056121024560#452"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test2-Info.plist -genpkginfo /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app/Info.plist0#
+
+CProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch.gch test2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s332781945.482644
+e332781946.089701
+r1
+xProcessPCH
+x/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch.gch
+xtest2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile test2_Prefix.pch332781945#332781946#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/test2_Prefix.pch8605043968#1698"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator -I/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources/i386 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphonesimulator/test2.build/DerivedSources -c /Users/Deumeure/Documents/test2/test2_Prefix.pch -o /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-cbpeusglakyxsidecvjzltabomne/test2_Prefix.pch.gch0#
+
+CTouch /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app
+s332781946.447765
+e332781946.450170
+r1
+xTouch
+x/Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app
+lSLF07#2@75"Touch /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app332781946#332781946#0(0"0(0#0#0"8604323296#262"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Deumeure/Documents/test2/build/Debug-iphonesimulator/test2.app0#
+

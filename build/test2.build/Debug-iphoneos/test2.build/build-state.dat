@@ -1,0 +1,705 @@
+Ttest2
+v7
+r0
+t332784675.281753
+cCheck dependencies
+cCpResource build/Debug-iphoneos/test2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/Info.plist test2-Info.plist
+cCompileXIB /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+cCpResource build/Debug-iphoneos/test2.app/mobile.pdf mobile.pdf
+cProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch.gch test2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch.gch test2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/InvocationUtil.o /Users/Deumeure/Documents/test2/InvocationUtil.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/InvocationUtil.o /Users/Deumeure/Documents/test2/InvocationUtil.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2 normal armv6
+cLd /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2 normal armv7
+cCreateUniversalBinary /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2 normal "armv6 armv7"
+cGenerateDSYMFile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app.dSYM /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2
+cProcessProductPackaging "/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision" /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision
+cTouch /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent
+cCodeSign /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.h
+c000000004D505DDC000000000000019F
+t1297112540
+s415
+i<Foundation/Foundation.h>
+
+N/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m
+c000000004E2594B8000000000000050E
+t1311085752
+s1294
+i"BlockingQueue.h"
+
+N/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.h
+c000000004E2556D90000000000000316
+t1311069913
+s790
+i<Foundation/Foundation.h>
+i"BlockingQueue.h"
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m
+c000000004E25AC9E00000000000008E6
+t1311091870
+s2278
+i"PDFImageLoader.h"
+i"InvocationUtil.h"
+
+N/Users/Deumeure/Documents/test2/InvocationUtil.h
+c000000004D505DDC000000000000099F
+t1297112540
+s2463
+i<Foundation/Foundation.h>
+
+N/Users/Deumeure/Documents/test2/InvocationUtil.m
+c000000004D505DDC000000000000024A
+t1297112540
+s586
+i"InvocationUtil.h"
+
+N/Users/Deumeure/Documents/test2/PDFLoader.h
+c000000004E2450D700000000000001F1
+t1311002839
+s497
+i<Foundation/Foundation.h>
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/PDFLoader.m
+c000000004E259F7600000000000003D2
+t1311088502
+s978
+i"PDFLoader.h"
+
+N/Users/Deumeure/Documents/test2/PDFPage.h
+c000000004E24475600000000000002A4
+t1311000406
+s676
+i<Foundation/Foundation.h>
+
+N/Users/Deumeure/Documents/test2/PDFPage.m
+c000000004E259FFC0000000000000F40
+t1311088636
+s3904
+i"PDFPage.h"
+
+N/Users/Deumeure/Documents/test2/Shared/main.m
+c000000004E259A17000000000000016F
+t1311087127
+s367
+i<UIKit/UIKit.h>
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+t1311091875
+s408
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app.dSYM
+t1311091875
+s102
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/Info.plist
+t1311087738
+s1087
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/MainWindow_iPad.nib
+t1311087738
+s982
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/MainWindow_iPhone.nib
+t1311087738
+s984
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/PkgInfo
+t1311087738
+s8
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/ResourceRules.plist
+t1311087738
+s485
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision
+t1311087739
+s8452
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/mobile.pdf
+t1311087738
+s2708379
+
+N/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2
+t1311091875
+s76656
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPad.o
+t1311091875
+s55228
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1311087739
+s49064
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/BlockingQueue.o
+t1311089082
+s12440
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/InvocationUtil.o
+t1311090902
+s7996
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFImageLoader.o
+t1311091875
+s18532
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFLoader.o
+t1311088538
+s11936
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFPage.o
+t1311088675
+s17508
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/main.o
+t1311087739
+s6448
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2
+t1311091875
+s35936
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2.LinkFileList
+c000000004E25A8D60000000000000387
+t1311090902
+s903
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPad.o
+t1311091875
+s55048
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t1311087739
+s49008
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/BlockingQueue.o
+t1311089082
+s12384
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/InvocationUtil.o
+t1311090902
+s7952
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFImageLoader.o
+t1311091875
+s18240
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFLoader.o
+t1311088538
+s11856
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFPage.o
+t1311088675
+s16628
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/main.o
+t1311087739
+s6432
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2
+t1311091875
+s35696
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2.LinkFileList
+c000000004E25A8D60000000000000387
+t1311090902
+s903
+
+N/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent
+t1311087739
+s422
+
+N/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.h
+c000000004E25A2D100000000000001ED
+t1311089361
+s493
+i<UIKit/UIKit.h>
+i"PDFLoader.h"
+i"PDFImageLoader.h"
+
+N/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m
+c000000004E25ACA20000000000000AEA
+t1311091874
+s2794
+i"AppDelegate_iPad.h"
+
+N/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+c000000004E259A1700000000000036D9
+t1311087127
+s14041
+
+N/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.h
+c000000004E259A17000000000000014D
+t1311087127
+s333
+i<UIKit/UIKit.h>
+
+N/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m
+c000000004E259A1700000000000009D4
+t1311087127
+s2516
+i"AppDelegate_iPhone.h"
+
+N/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+c000000004E259A170000000000003908
+t1311087127
+s14600
+
+N/Users/Deumeure/Documents/test2/mobile.pdf
+c000000004E259A71000000000029539B
+t1311087217
+s2708379
+
+N/Users/Deumeure/Documents/test2/test2_Prefix.pch
+c000000004E259A1700000000000000B3
+t1311087127
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision
+c000000004E2550C00000000000002104
+t1311068352
+s8452
+
+N/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch.gch
+t1311087739
+s9983704
+
+N/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch.gch
+t1311087739
+s10446552
+
+Ntest2-Info.plist
+c000000004E259C7A0000000000000569
+t1311087738
+s1385
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332784674#332784674#0(0"0(0#1#0"8629559648#0"0#
+
+CCodeSign /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+s332784675.131270
+e332784675.281713
+r1
+xCodeSign
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+lSLF07#2@39"CodeSign build/Debug-iphoneos/test2.app332784675#332784675#0(0"0(0#0#62"/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app8628903584#611"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Laurent Morin (BYQ3NDYGQ7)" --resource-rules=/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/ResourceRules.plist --entitlements /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332784674.810035
+e332784675.035109
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPad.o
+x/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:25: warning: class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: 'AppDelegate_iPad' may not respond to '-tick'
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: (Messages without a matching method signature
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: will be assumed to return 'id' and accept
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: '...' as arguments.)
+lSLF07#2@63"Compile /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#332784675#0(717"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:25: warning: class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: 'AppDelegate_iPad' may not respond to '-tick'/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: (Messages without a matching method signature/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: will be assumed to return 'id' and accept/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: '...' as arguments.)3(22@81"Class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol332784674#135#151#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#25#0#25#0#45"class '*' does not implement the '*' protocol0(22@45"'AppDelegate_iPad' may not respond to '-tick'332784674#286#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#38#0#38#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332784674#401#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#38#0#38#0#0"0(0#0#55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m8638487648#1636"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPad.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332780539.502661
+e332780539.614368
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m332780539#332780539#0(0"0(0#0#59"/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m8683715904#1642"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332781882.705685
+e332781882.791942
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/BlockingQueue.o
+x/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m332781882#332781882#0(0"0(0#0#61"/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m8690086816#1639"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/BlockingQueue.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/InvocationUtil.o /Users/Deumeure/Documents/test2/InvocationUtil.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332783702.353061
+e332783702.412344
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/InvocationUtil.o
+x/Users/Deumeure/Documents/test2/InvocationUtil.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Deumeure/Documents/test2/InvocationUtil.m332783702#332783702#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/InvocationUtil.m8636328352#1627"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/InvocationUtil.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/InvocationUtil.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332784674.942785
+e332784675.065550
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFImageLoader.o
+x/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m332784674#332784675#0(0"0(0#0#60"/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m8638216544#1639"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFImageLoader.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332781338.170559
+e332781338.277685
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFLoader.o
+x/Users/Deumeure/Documents/test2/PDFLoader.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Deumeure/Documents/test2/PDFLoader.m332781338#332781338#0(0"0(0#0#43"/Users/Deumeure/Documents/test2/PDFLoader.m8687209184#1617"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFLoader.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332781475.086088
+e332781475.223194
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFPage.o
+x/Users/Deumeure/Documents/test2/PDFPage.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Deumeure/Documents/test2/PDFPage.m332781475#332781475#0(0"0(0#0#41"/Users/Deumeure/Documents/test2/PDFPage.m8688175680#1613"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFPage.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/PDFPage.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332780539.501506
+e332780539.575140
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/main.o
+x/Users/Deumeure/Documents/test2/Shared/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Deumeure/Documents/test2/Shared/main.m332780539#332780539#0(0"0(0#0#45"/Users/Deumeure/Documents/test2/Shared/main.m8670414464#1614"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/Shared/main.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332784674.981307
+e332784675.079518
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPad.o
+x/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:25: warning: class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: 'AppDelegate_iPad' may not respond to '-tick'
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: (Messages without a matching method signature
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: will be assumed to return 'id' and accept
+o/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: '...' as arguments.)
+lSLF07#2@63"Compile /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#332784675#0(717"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad application:didFinishLaunchingWithOptions:]':/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:25: warning: class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: 'AppDelegate_iPad' may not respond to '-tick'/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: (Messages without a matching method signature/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: will be assumed to return 'id' and accept/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m:38: warning: '...' as arguments.)3(22@81"Class 'AppDelegate_iPad' does not implement the 'PDFImageLoaderDelegate' protocol332784675#135#151#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#25#0#25#0#45"class '*' does not implement the '*' protocol0(22@45"'AppDelegate_iPad' may not respond to '-tick'332784675#286#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#38#0#38#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332784675#401#115#0(6@55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m332784674#38#0#38#0#0"0(0#0#55"/Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m8635300480#1636"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPad/AppDelegate_iPad.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPad.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332780539.614521
+e332780539.702023
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPhone.o
+x/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m332780539#332780539#0(0"0(0#0#59"/Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m8630410048#1642"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/iPhone/AppDelegate_iPhone.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/BlockingQueue.o /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332781882.794306
+e332781882.872716
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/BlockingQueue.o
+x/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m332781882#332781882#0(0"0(0#0#61"/Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m8693386528#1639"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/BlockingQueue/BlockingQueue.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/BlockingQueue.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/InvocationUtil.o /Users/Deumeure/Documents/test2/InvocationUtil.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332783702.355638
+e332783702.420731
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/InvocationUtil.o
+x/Users/Deumeure/Documents/test2/InvocationUtil.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Deumeure/Documents/test2/InvocationUtil.m332783702#332783702#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/InvocationUtil.m8634683680#1627"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/InvocationUtil.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/InvocationUtil.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFImageLoader.o /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332784674.982572
+e332784675.073888
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFImageLoader.o
+x/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m332784674#332784675#0(0"0(0#0#60"/Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m8635844640#1639"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/ImageLoader/PDFImageLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFImageLoader.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFLoader.o /Users/Deumeure/Documents/test2/PDFLoader.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332781338.217907
+e332781338.293829
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFLoader.o
+x/Users/Deumeure/Documents/test2/PDFLoader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/Deumeure/Documents/test2/PDFLoader.m332781338#332781338#0(0"0(0#0#43"/Users/Deumeure/Documents/test2/PDFLoader.m8688206208#1617"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFLoader.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFLoader.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFPage.o /Users/Deumeure/Documents/test2/PDFPage.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332781475.140705
+e332781475.224965
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFPage.o
+x/Users/Deumeure/Documents/test2/PDFPage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/Deumeure/Documents/test2/PDFPage.m332781475#332781475#0(0"0(0#0#41"/Users/Deumeure/Documents/test2/PDFPage.m8690779968#1613"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/PDFPage.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/PDFPage.o0#
+
+CCompileC build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/main.o /Users/Deumeure/Documents/test2/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332780539.575517
+e332780539.690838
+r1
+xCompileC
+xbuild/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/main.o
+x/Users/Deumeure/Documents/test2/Shared/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Deumeure/Documents/test2/Shared/main.m332780539#332780539#0(0"0(0#0#45"/Users/Deumeure/Documents/test2/Shared/main.m8639053344#1614"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -include /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch -c /Users/Deumeure/Documents/test2/Shared/main.m -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+s332780538.351750
+e332780538.764520
+r1
+xCompileXIB
+x/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib332780538#332780538#0(0"0(0#0#56"/Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib8677288352#534"    cd /Users/Deumeure/Documents/test2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/MainWindow_iPad.nib /Users/Deumeure/Documents/test2/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+s332780538.350810
+e332780538.764382
+r1
+xCompileXIB
+x/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib332780538#332780538#0(0"0(0#0#60"/Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib8631533856#540"    cd /Users/Deumeure/Documents/test2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/MainWindow_iPhone.nib /Users/Deumeure/Documents/test2/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/test2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s332780538.345609
+e332780538.350738
+r1
+xCpResource
+xbuild/Debug-iphoneos/test2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist332780538#332780538#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8677993056#478"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app0#
+
+CCpResource build/Debug-iphoneos/test2.app/mobile.pdf mobile.pdf
+s332780538.352555
+e332780538.363569
+r1
+xCpResource
+xbuild/Debug-iphoneos/test2.app/mobile.pdf
+xmobile.pdf
+lSLF07#2@15"Copy mobile.pdf332780538#332780538#0(0"0(0#0#42"/Users/Deumeure/Documents/test2/mobile.pdf8684212000#431"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Deumeure/Documents/test2/mobile.pdf /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app0#
+
+CCreateUniversalBinary /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2 normal "armv6 armv7"
+s332784675.106034
+e332784675.108698
+r1
+xCreateUniversalBinary
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2
+xnormal
+xarmv6 armv7
+lSLF07#2@79"CreateUniversalBinary build/Debug-iphoneos/test2.app/test2 normal "armv6 armv7"332784675#332784675#0(0"0(0#0#43"/Users/Deumeure/Documents/test2/armv6 armv78626554368#474"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2 /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2 -output /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test20#
+
+CGenerateDSYMFile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app.dSYM /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2
+s332784675.108759
+e332784675.128870
+r1
+xGenerateDSYMFile
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app.dSYM
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/test2.app.dSYM build/Debug-iphoneos/test2.app/test2332784675#332784675#0(0"0(0#0#68"/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test28636041280#335"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/test2 -o /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app.dSYM0#
+
+CLd /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2 normal armv6
+s332784675.065665
+e332784675.098512
+r1
+xLd
+x/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2
+xnormal
+xarmv6
+lSLF07#2@108"Link /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2332784675#332784675#0(0"0(0#0#0"8635509024#812"    cd /Users/Deumeure/Documents/test2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Deumeure/Documents/test2/build/Debug-iphoneos -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -filelist /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test2.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv6/test20#
+
+CLd /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2 normal armv7
+s332784675.079612
+e332784675.105945
+r1
+xLd
+x/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2
+xnormal
+xarmv7
+lSLF07#2@108"Link /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2332784675#332784675#0(0"0(0#0#0"8630485152#812"    cd /Users/Deumeure/Documents/test2    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/Deumeure/Documents/test2/build/Debug-iphoneos -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -filelist /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test2.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/Objects-normal/armv7/test20#
+
+CProcessInfoPlistFile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/Info.plist test2-Info.plist
+s332780538.346580
+e332780538.350476
+r1
+xProcessInfoPlistFile
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/Info.plist
+xtest2-Info.plist
+lSLF07#2@24"Process test2-Info.plist332780538#332780538#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/test2-Info.plist8625452992#526"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test2-Info.plist -genpkginfo /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/ResourceRules.plist -o /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/Info.plist0#
+
+CProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch.gch test2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332780538.764620
+e332780539.388840
+r1
+xProcessPCH
+x/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch.gch
+xtest2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile test2_Prefix.pch332780538#332780539#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/test2_Prefix.pch8683079904#1514"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv6 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -c /Users/Deumeure/Documents/test2/test2_Prefix.pch -o /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-avpufcbblklbadbdxcpbyjijgofs/test2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch.gch test2_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332780538.765503
+e332780539.501389
+r1
+xProcessPCH
+x/var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch.gch
+xtest2_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile test2_Prefix.pch332780538#332780539#0(0"0(0#0#48"/Users/Deumeure/Documents/test2/test2_Prefix.pch8682583968#1514"    cd /Users/Deumeure/Documents/test2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-generated-files.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-own-target-headers.hmap -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-all-target-headers.hmap -iquote /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2-project-headers.hmap -F/Users/Deumeure/Documents/test2/build/Debug-iphoneos -I/Users/Deumeure/Documents/test2/build/Debug-iphoneos/include -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources/armv7 -I/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/DerivedSources -c /Users/Deumeure/Documents/test2/test2_Prefix.pch -o /var/folders/uK/uKpFbk+PEuCxoe6qoSGStk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test2_Prefix-bkaeprhjnhnourfbotjhiefwnizr/test2_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision" /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision
+s332780539.750135
+e332780539.751578
+r1
+xProcessProductPackaging
+x/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision" build/Debug-iphoneos/test2.app/embedded.mobileprovision332780539#332780539#0(0"0(0#0#87"/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision8678111328#410"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Deumeure/Library/MobileDevice/Provisioning Profiles/850EFFA3-E577-461B-8BB6-625F3889EA0F.mobileprovision" -o /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent
+s332780539.751665
+e332780539.761376
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent
+lSLF07#2@169"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/test2.build/Debug-iphoneos/test2.build/test2.xcent332780539#332780539#0(0"0(0#0#88"/Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent8676465600#412"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/Deumeure/Documents/test2/build/test2.build/Debug-iphoneos/test2.build/test2.xcent0#
+
+CTouch /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+s332784675.129043
+e332784675.131152
+r1
+xTouch
+x/Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app
+lSLF07#2@68"Touch /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app332784675#332784675#0(0"0(0#0#0"8634522784#248"    cd /Users/Deumeure/Documents/test2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Deumeure/Documents/test2/build/Debug-iphoneos/test2.app0#
+
